@@ -1,0 +1,8 @@
+{
+  "*.{json,html,yaml,yml,md,css,scss}": ["prettier --write"],
+  "*.{js,jsx,ts,tsx}": [
+    "organize-imports-cli",
+    "prettier --write",
+    "eslint --fix"
+  ]
+}

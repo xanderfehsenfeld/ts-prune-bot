@@ -1,2 +1,30 @@
+ See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
 node_modules/
 lib/
+
+# testing
+/coverage
+
+# builds
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.bvt.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+storybook-static
+deploy.sh
+.idea/
+.eslintcache
+packages/ui
